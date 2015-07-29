@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBBBBB"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:padding="40dp"
+        android:text="My Nanodegree Apps!"
+        android:textColor="#333333"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/spotify_streamer_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="DisplayMessage"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#E91E63"
+        android:fontFamily="sans-serif"
+        android:text="Spotify Streamer"
+        android:textColor="#DDDDDD"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/scores_app_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="DisplayMessage"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#E91E63"
+        android:fontFamily="sans-serif"
+        android:text="Scores App"
+        android:textColor="#DDDDDD"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/library_app_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:onClick="DisplayMessage"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#E91E63"
+        android:fontFamily="sans-serif"
+        android:text="Library App"
+        android:textColor="#DDDDDD"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/build_it_bigger_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="DisplayMessage"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#E91E63"
+        android:fontFamily="sans-serif"
+        android:text="Build It Bigger"
+        android:textColor="#DDDDDD"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/xyz_reader_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="DisplayMessage"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#E91E63"
+        android:fontFamily="sans-serif"
+        android:text="XYZ Reader"
+        android:textColor="#DDDDDD"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/capstone_project_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="DisplayMessage"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#E91E63"
+        android:fontFamily="sans-serif"
+        android:text="Capstone: My Own App"
+        android:textColor="#DDDDDD"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
