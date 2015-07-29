@@ -4,6 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BBBBBB"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBBBBB"
+    android:fillViewport="true"
     android:orientation="vertical">
 
     <TextView
@@ -25,7 +41,7 @@
         android:onClick="DisplayMessage"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:background="#E91E63"
+        android:background="@drawable/custom_button"
         android:fontFamily="sans-serif"
         android:text="Spotify Streamer"
         android:textColor="#DDDDDD"
@@ -39,7 +55,7 @@
         android:onClick="DisplayMessage"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:background="#E91E63"
+        android:background="@drawable/custom_button"
         android:fontFamily="sans-serif"
         android:text="Scores App"
         android:textColor="#DDDDDD"
@@ -53,7 +69,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:background="#E91E63"
+        android:background="@drawable/custom_button"
         android:fontFamily="sans-serif"
         android:text="Library App"
         android:textColor="#DDDDDD"
@@ -67,7 +83,7 @@
         android:onClick="DisplayMessage"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:background="#E91E63"
+        android:background="@drawable/custom_button"
         android:fontFamily="sans-serif"
         android:text="Build It Bigger"
         android:textColor="#DDDDDD"
@@ -81,7 +97,7 @@
         android:onClick="DisplayMessage"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:background="#E91E63"
+        android:background="@drawable/custom_button"
         android:fontFamily="sans-serif"
         android:text="XYZ Reader"
         android:textColor="#DDDDDD"
@@ -95,11 +111,12 @@
         android:onClick="DisplayMessage"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:background="#E91E63"
+        android:background="@drawable/custom_button"
         android:fontFamily="sans-serif"
         android:text="Capstone: My Own App"
         android:textColor="#DDDDDD"
         android:textSize="16sp" />
 
-
 </LinearLayout>
+</ScrollView>
+    </LinearLayout>
